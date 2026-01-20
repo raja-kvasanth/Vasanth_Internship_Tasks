@@ -1,0 +1,37 @@
+Title
+
+Bug Analysis & Refactoring of Flask Note Taking Application
+
+-Bugs Identified
+
+Missing GET method on home route
+
+Incorrect usage of request.args
+
+No initial page rendering
+
+HTML form missing POST method
+
+Notes appended even when empty
+
+Flask template folder structure missing
+
+-Fixing Approach
+
+Refactored Flask route to support GET & POST
+
+Used request.form for form data
+
+Added validation for empty notes
+
+Structured project as per Flask conventions
+
+Used flask-ngrok to expose app in Colab
+
+-Final Result
+
+Application allows adding notes
+
+Notes displayed as unordered list
+
+Works correctly on a single home route
